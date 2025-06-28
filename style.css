@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+h1 {
+    padding: 50px 0px;
+    color: rgb(255, 0, 8);
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+p {
+    padding: 0 20px 20px 20px;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.container ul {
+    padding: 0 40px 20px 40px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.container img {
+    width: 250px;
+    height: auto;
+    border-radius: 22px;
+}
+
+td img {
+    width: 300px;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1 );
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+th {
+    font-weight: bold;
+    background-color: rgb(239, 198, 143);
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: rgb(255, 0, 8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: rgb(0, 146, 70);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(239, 198, 144);
+    color: rgb(255, 0, 8);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(0, 146, 70);
+    color: white;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(255, 0, 8);
+}
